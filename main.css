@@ -1,0 +1,215 @@
+@font-face {
+    font-family: Audiowide;
+    src: url("./fonts/Audiowide/Audiowide-Regular.ttf");
+}
+
+@font-face {
+    font-family: OxygenMono;
+    src: url("./fonts/OxygenMono/OxygenMono-Regular.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0%;
+    background-image: url("./images/Veil\ Nebula.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3 {
+    font-family: Audiowide;
+    color: #ffd68a;
+}
+
+p {
+    font-family: OxygenMono;
+    font-weight: 400;
+    font-size: large;
+    line-height: 1.5;
+    color: #d5cac7;
+}
+
+h1, h2 {
+    font-family: 'Audiowide';
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.down {
+    color: #d5cac7;
+    font-size: 50px;
+    font-style: normal;
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: 40px;
+}
+
+.down:hover {
+    color: #ffd68a;
+}
+
+.background {
+    background-color: #353f5dc0;
+}
+
+.name, .tagline {
+    text-align: center;
+    margin: 0%;
+    width: 100%;
+}
+
+.pfp {
+    height: 200px;
+    border-radius: 50%;
+    margin: 10% 0%;
+}
+
+.background > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about {
+    justify-content: center;
+    padding: 0% 10% 10% 10%;
+}
+
+.parent {
+    width: 50%;
+    display: grid;
+    grid-template: auto / auto;
+}
+
+.sectionLink {
+    color: #d5cac7;
+}
+
+#inspiring-image-1 {
+    position: relative;
+    background-image: url("https://drscdn.500px.org/photo/1025966375/q%3D90_m%3D2048/v2?sig=2b40aa1b663bf05faa0638d4e6d7a2c68d989f624dc0f1736b6e99d147580a8a");
+    background-position: center;
+    background-size: contain;
+    height: 150px;
+    aspect-ratio: 1.498;
+    float: left;
+    margin: 0px 10px 0px 0px
+}
+
+#inspiring-image-2 {
+    position: relative;
+    background-image: url("https://drscdn.500px.org/photo/261921021/q%3D90_m%3D2048/v2?sig=2fe5d030f70e5490071496729b17f20c3e8d4c783602f7549649a71d02f86f94");
+    background-position: center;
+    background-size: contain;
+    height: 150px;
+    aspect-ratio: 1.498;
+    float: right;
+    margin: 0px 0px 0px 10px
+}
+
+#inspiring-image-3 {
+    position: relative;
+    background-image: url("https://drscdn.500px.org/photo/1090071006/q%3D90_m%3D2048/v2?sig=f44cd3bbbdc3aa197f19a05cb4488ab497d808f7fc2ee521cea0505e5c70dac7");
+    background-position: center;
+    background-size: contain;
+    height: 150px;
+    aspect-ratio: 1.498;
+    float: left;
+    margin: 0px 10px 0px 0px
+}
+
+.projects {
+    justify-content: space-around;
+    border-top: 2px solid #ffd68a;
+    border-bottom: 2px solid #ffd68a;
+    padding: 10%;
+}
+
+#projects-header {
+    text-align: center;
+    width: 100%;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.uvivf {
+    background-image: url("https://drscdn.500px.org/photo/1036218715/q%3D90_m%3D2048/v2?sig=7a1726c648e0181286b19ebf5460256a8f7d4e85b17fa76e346254dac44d9819");
+}
+
+.infrared {
+    background-image: url("https://drscdn.500px.org/photo/239553027/q%3D90_m%3D2048/v2?sig=36a51e2d8be4a43818f4e8bc5a1b32949373158b0f34b8426373e803372381fa");
+}
+
+.astrophotography {
+    background-image: url("https://drscdn.500px.org/photo/1111588709/q%3D90_m%3D2048/v2?sig=ac0db3b2f3b6b5f9a5a907d3a9c4de3e0b29d416bf3acf7c97fc14464f589b55");
+}
+
+.link-image {
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px #d5cac7;
+    max-height: 200px;
+    min-height: 10px;
+    aspect-ratio: 1 / 1;
+}
+
+.link-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.link-image:hover {
+    box-shadow: 0px 0px 40px #ffd68a;
+}
+
+.email-link {
+    padding: 10px;
+    border-radius: 5px;
+    color: #353f5dc0;
+    font-family: Audiowide;
+    font-weight: 900;
+    font-style: normal;
+    text-decoration: none;
+    background-color: #ffd68a;
+    box-shadow: 0px 0px 20px #d5cac7;
+}
+
+.email-link:hover {
+    box-shadow: 0px 0px 40px #ffd68a;
+}
+
+.contact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 10% 5% 10%;
+}
+
+.footer {
+    justify-content: center;
+}
