@@ -54,17 +54,27 @@ h1, h2 {
     padding: 8px;
 }
 
-.down {
-    color: #d5cac7;
-    font-size: 50px;
-    font-style: normal;
-    text-decoration: none;
-    margin-top: auto;
-    margin-bottom: 40px;
+.arrow {
+    display: inline-block;
+    border: solid #d5cac7;
+    box-shadow: 10px 10px 10px -5px #d5cac7;
+    width: 50px;
+    aspect-ratio: 1/1;
+    border-width: 0px 4px 4px 0px;
+    border-radius: 10px;
 }
 
-.down:hover {
-    color: #ffd68a;
+.arrow:hover {
+    box-shadow: 10px 10px 10px -5px #ffd68a;
+}
+
+.down {
+    transform: rotate(45deg);
+}
+
+.scrollArrow{
+    margin-top: auto;
+    margin-bottom: 40px;
 }
 
 .background {
@@ -97,6 +107,12 @@ h1, h2 {
     width: 50%;
     display: grid;
     grid-template: auto / auto;
+}
+
+@media screen and (max-width: 600px) {
+    .parent {
+        width: 100%;
+    } 
 }
 
 .sectionLink {
